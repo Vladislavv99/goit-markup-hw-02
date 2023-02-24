@@ -64,7 +64,6 @@ li {
 }
 
 .section-footer p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -105,6 +104,7 @@ li {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+    font-family: inherit;
 }
 
 .button-studio:hover,
@@ -115,7 +115,6 @@ li {
 .page-info h3 {
     width: 264px;
     height: 24px;
-    font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -123,7 +122,6 @@ li {
 }
 
 .page-info p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -131,7 +129,6 @@ li {
 }
 
 .title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 40px;
     letter-spacing: 0.02em;
@@ -147,7 +144,6 @@ li {
 }
 
 .list-ourtaem h3 {
-    font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -155,7 +151,6 @@ li {
 }
 
 .list-ourtaem p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -176,6 +171,7 @@ li {
     letter-spacing: 0.04em;
     color: #4D5AE5;
     cursor: pointer;
+    font-family: inherit;
 }
 
 .button-portfolio:hover,
@@ -185,7 +181,6 @@ li {
 }
 
 .portfolio-img h3 {
-    font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -193,7 +188,6 @@ li {
 }
 
 .portfolio-img p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
