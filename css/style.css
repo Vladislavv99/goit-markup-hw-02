@@ -1,7 +1,14 @@
 /* general */
+:root {
+    --backround-color: #ffffff;
+    --logo-color : #4D5AE5;
+    --address-future-text-color: #434455;
+    --future-title-color: #2E2F42;
+}
 body {
-    background: #F4F4FD;
+    background-color: var(--backround-color);
     font-family: 'Roboto';
+    font-size: 16px;
 }
 
 a {
@@ -15,13 +22,10 @@ li {
 .logo {
     font-family: 'Raleway';
     font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--logo-color);
 }
 
 .studio-header {
@@ -32,30 +36,27 @@ li {
     color: #F4F4FD;
 }
 
-.navigation-list {
+.navigation-link {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    line-height: 1.28;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
-.navigation-list:hover,
-.navigation-list:focus {
+.navigation-link:hover,
+.navigation-link:focus {
     color: #404BBF;
 }
 
-.address-list {
+.address-link {
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    line-height: 1.28;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--address-future-text-color);
 }
 
-.address-list:hover,
-.address-list:focus {
+.address-link:hover,
+.address-link:focus {
     color: #404BBF;
 }
 
@@ -64,27 +65,23 @@ li {
 }
 
 .section-footer p {
-    font-size: 16px;
-    line-height: 24px;
+    line-height: 1.28;
     letter-spacing: 0.02em;
     color: #E7E9FC;
 }
 
 /* For index.html */
 
-.page-name {
+.hero {
     background: #2E2F42;
 }
 
-.page-name h1 {
-    font-weight: 700;
+.hero-title {
     font-size: 56px;
-    line-height: 60px;
+    line-height: 0.91;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    width: 496px;
-    height: 120px;
 }
 
 .button-studio {
@@ -112,27 +109,25 @@ li {
     background-color: #404BBF;
 }
 
-.page-info h3 {
-    width: 264px;
-    height: 24px;
+.future-title {
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.02;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--future-title-color);
 }
 
-.page-info p {
-    font-size: 16px;
-    line-height: 24px;
+.future-text {
+    line-height: 1.28;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--address-future-text-color);
 }
 
-.title {
+.section-title {
     font-size: 36px;
-    line-height: 40px;
+    line-height: 0.95;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--future-title-color);
 }
 
 .title-ourtaem {
