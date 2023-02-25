@@ -4,6 +4,12 @@
     --logo-color : #4D5AE5;
     --address-future-text-color: #434455;
     --future-title-color: #2E2F42;
+    --section-team-color: #E5E5E5;
+    --team-name-color: #2E2F42;
+    --team-text-color: #434455;
+    --footer-text-color: #E7E9FC;
+    --portfolio-title-color: #2E2F42;
+    --portfolio-text-color: #434455;
 }
 body {
     background-color: var(--backround-color);
@@ -60,20 +66,20 @@ li {
     color: #404BBF;
 }
 
-.section-footer {
-    background: #2E2F42;
+.footer {
+    background-color: #2E2F42;
 }
 
-.section-footer p {
+.footer-text {
     line-height: 1.28;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: var(--footer-text-color);
 }
 
 /* For index.html */
 
 .hero {
-    background: #2E2F42;
+    background-color: #2E2F42;
 }
 
 .hero-title {
@@ -85,19 +91,13 @@ li {
 }
 
 .button-studio {
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
+    font-size: inherit;
+    line-height: 1.28;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
@@ -130,39 +130,48 @@ li {
     color: var(--future-title-color);
 }
 
-.title-ourtaem {
-    background: #E5E5E5;
+.taem {
+    background-color: var(--section-team-color);
 }
 
-.list-ourtaem {
-    background: #FFFFFF;
+.taem-item {
+    background-color: var(--backround-color);
 }
 
-.list-ourtaem h3 {
+.team-name {
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.28;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--team-name-color);
 }
 
-.list-ourtaem p {
-    font-size: 16px;
-    line-height: 24px;
+.team-text {
+    line-height: 1.28;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--team-text-color);
 }
 
 /* For portfolio.html */
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .button-portfolio {
-    width: 116px;
-    height: 48px;
-    background: #F4F4FD;
+    background-color: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
 
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    line-height: 1.28;
     letter-spacing: 0.04em;
     color: #4D5AE5;
     cursor: pointer;
@@ -171,20 +180,19 @@ li {
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-    background: #404BBF;
+    background-color: #404BBF;
     color: #FFFFFF;
 }
 
-.portfolio-img h3 {
+.portfolio-title {
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.02;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--portfolio-title-color);
 }
 
-.portfolio-img p {
-    font-size: 16px;
-    line-height: 24px;
+.portfolio-text {
+    line-height: 1.28;
     letter-spacing: 0.02em;
-    color: #434455
+    color: var(--portfolio-text-color);
 }
