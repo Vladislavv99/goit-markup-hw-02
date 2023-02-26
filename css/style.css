@@ -10,6 +10,7 @@
     --footer-text-color: #E7E9FC;
     --portfolio-title-color: #2E2F42;
     --portfolio-text-color: #434455;
+    --navigation-link-color: #2E2F42;
 }
 body {
     background-color: var(--backround-color);
@@ -28,7 +29,7 @@ li {
 .logo {
     font-family: 'Raleway';
     font-weight: 800;
-    line-height: 1.14;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-color);
@@ -44,9 +45,9 @@ li {
 
 .navigation-link {
     font-weight: 500;
-    line-height: 1.28;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--navigation-link-color);
 }
 
 .navigation-link:hover,
@@ -56,7 +57,7 @@ li {
 
 .address-link {
     font-style: normal;
-    line-height: 1.28;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--address-future-text-color);
 }
@@ -71,7 +72,7 @@ li {
 }
 
 .footer-text {
-    line-height: 1.28;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--footer-text-color);
 }
@@ -84,7 +85,7 @@ li {
 
 .hero-title {
     font-size: 56px;
-    line-height: 0.91;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -110,21 +111,22 @@ li {
 }
 
 .future-title {
+    font-weight: 500;
     font-size: 20px;
-    line-height: 1.02;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--future-title-color);
 }
 
 .future-text {
-    line-height: 1.28;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--address-future-text-color);
 }
 
 .section-title {
     font-size: 36px;
-    line-height: 0.95;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--future-title-color);
@@ -139,6 +141,7 @@ li {
 }
 
 .team-name {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.28;
     letter-spacing: 0.02em;
@@ -146,7 +149,7 @@ li {
 }
 
 .team-text {
-    line-height: 1.28;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--team-text-color);
 }
@@ -185,14 +188,15 @@ li {
 }
 
 .portfolio-title {
+    font-weight: 500;
     font-size: 20px;
-    line-height: 1.02;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--portfolio-title-color);
 }
 
 .portfolio-text {
-    line-height: 1.28;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--portfolio-text-color);
 }
