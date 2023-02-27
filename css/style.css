@@ -11,6 +11,7 @@
     --portfolio-title-color: #2E2F42;
     --portfolio-text-color: #434455;
     --navigation-link-color: #2E2F42;
+    --hero-title-color: #ffffff;
 }
 body {
     background-color: var(--backround-color);
@@ -88,7 +89,7 @@ li {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--hero-title-color);
 }
 
 .button-studio {
@@ -98,7 +99,7 @@ li {
 
     font-weight: 500;
     font-size: inherit;
-    line-height: 1.28;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
@@ -143,7 +144,7 @@ li {
 .team-name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.28;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--team-name-color);
 }
@@ -174,7 +175,7 @@ li {
     border-radius: 4px;
 
     font-weight: 500;
-    line-height: 1.28;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #4D5AE5;
     cursor: pointer;
